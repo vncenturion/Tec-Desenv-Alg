@@ -25,7 +25,7 @@ int main(void) {
   while (str1[i] != '\0' & saida == 0)
   {
     if (str1[i]==str1[contador] || str1[i] == (str1[contador]+32) || str1[i] == (str1[contador]-32))
-    //observe que a comparacao de caractere segue os valores correspondentes a tabela ASCII, estando as maiusculas e minusculas separadas por 32 unidades. Assim, para fazer a comparacao considerando que caracteres maiusculos e minusculos sao identicos, acrescentou-se o
+    //observe que a comparacao de caractere segue os valores correspondentes a tabela ASCII, estando as maiusculas e minusculas separadas por 32 unidades. Assim, para fazer a comparacao considerando que caracteres maiusculos e minusculos sao identicos, acrescentou-se os intervalo em modulo.
     {
       i++;
       contador--;
