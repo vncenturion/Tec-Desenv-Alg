@@ -1,7 +1,9 @@
 /*
 URI 2157
 Input
-The input has an integer value C indicating the number of test cases. Then each case has two integer values ​​E and B ( 1 ≤ B ≤ E ≤ 12221 ), indicating the start and end of the sequence.
+The input has an integer value C indicating the number of test cases. 
+Then each case has two integer values ​​E and B ( 1 ≤ B ≤ E ≤ 12221 ), 
+indicating the start and end of the sequence.
 
 Output
 For each test case, print the respective mirror sequence.

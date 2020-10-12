@@ -1,7 +1,7 @@
 /*
 URI 1871
 Input
-There will be several test cases . Each test case begins with two integers M and N ( 1 ≤ M ≤ N ≤ 999 999 999 ) .
+There will be several test cases . Each test case begins with two integers M and N ( 1 ≤ M ≤ N ≤ 999 999 999 ).
 The last test case is indicated when C = M = 0 , and this case should not be processed.
 
 Output
