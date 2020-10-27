@@ -1,0 +1,18 @@
+Pergunta 4
+10 pontos
+FAFIPA - 2020 - Prefeitura de Arapongas - PR - Analista de Tecnologia - Redes e Comunicação de Dados
+
+A linguagem de programação C é uma linguagem compilada de propósito geral, estruturada, imperativa e procedural. Esta é uma das linguagens de programação mais populares e tem influenciado muitas outras linguagens de programação, como por exemplo, a linguagem Java. Observe a figura, onde é apresentado um código escrito em C:
+
+#include <stdio.h>
+
+int main(void) {
+  int i = 3;
+  printf("%d", ++i);
+  
+  return 0;
+}
+
+ Após executar o código da figura no Compilador C, o que será apresentado no console?
+
+RESPOSTA: A) 4;
