@@ -1,0 +1,17 @@
+As estruturas em C (que correspondem aos registros em outras linguagens) permitem colocar, em uma única entidade, elementos de tipos diferentes.
+Uma estrutura é um conjunto de uma ou mais variáveis (às quais vulgarmente também se chamam campos ou membros) agrupadas sob um único nome, de forma a facilitar a sua referência.
+As estruturas podem conter elementos com qualquer tipo de dados válidos em C (tipos básicos, vetores, strings, ponteiros ou mesmo outras estruturas).
+
+Uma união é um tipo e dado derivado - como uma estrutura - com membros que compartilham o mesmo espaço de armazenamento. Para diferentes situações em um programa, algumas variáveis podem não ser relevantes, mas outras variáveis o São, de modo que uma união compartilha o espaço em vez de desperdiçar armazenamento em variáveis que não são mais usadas. Os membros de uma união podem ser de qualquer tipo de dado. O numero de bytes usados para armazenar uma união presa ser, pelo menos, o suficiente para manter o maior membro.
+
+Uma enumeração, introduzida pela palavra-chave enum, é um conjunto de constantes de enumeração inteiras, representadas por identificadores. Os valores em um enum começam com 0, a menos que haja outras especificações, e são incrementados por 1.
+
+Uma das desvantagens existentes na utilização de estruturas está na declaração das variáveis, que têm sempre que ser precedidas da palavra reservada struct, seguida do nome da estrutura.
+O ideal seria podermos representar uma estrutura unicamente através de uma palavra (um sinônimo), tal como fazemos com os tipos-base da linguagem. Isso é possível através da palavra reservada typedef, cuja sintaxe é: typedef tipo_existente sinônimo.
+Assim, a palavra typedef não cria um novo tipo. Permite apenas que um determinado tipo possa ser denominado de forma diferente, de acordo com as necessidades do programador.
+
+
+REFERENCIAS
+
+DAMAS, Luis. Linguagem C. 10.ed.
+DEITEL, Paul. C: como programar. 6.ed. 
